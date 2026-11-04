@@ -13,8 +13,6 @@ The framework consists of two main components:
 - **Cross-View Spatial Alignment (CVSA):** models spatial relationships between frontal and lateral representations through cross-view attention. Lateral features query frontal features to aggregate complementary evidence, while residual integration preserves the original lateral information.
 - **Prototype-Guided Semantic Memory (PGSM):** retrieves relevant learnable clinical prototypes according to the evolving decoding context. Cascaded multimodal binding integrates the retrieved semantic information with visual and textual representations, and the resulting evidence guides report generation through vocabulary-logit intervention.
 
-Together, these components address ambiguous cross-view spatial correspondence and insufficient adaptive visual-semantic coupling.
-
 ## Main Features
 
 - Cross-view attention for spatial information exchange between frontal and lateral chest X-ray representations.
