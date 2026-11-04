@@ -57,8 +57,6 @@ The main components are organized as follows:
 | `test_*.sh` | Dataset-specific experiment scripts; verify their entry points before use |
 | `plot_mimic_cxr.sh` | MIMIC-CXR visualization configuration |
 
-Some implementation names differ from the terminology used in the paper. Cross-view alignment is controlled by `--use_crft`, while the semantic memory pathway is controlled by `--use_hd_memory`.
-
 ## Data
 
 Experiments are conducted on **IU X-Ray** and **MIMIC-CXR**.
