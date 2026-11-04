@@ -80,7 +80,7 @@ CVSM-Net/
 └── main_test.py
 ```
 
-`EVAP_clean.json` is the annotation filename referenced by the current MIMIC-CXR scripts. If your annotation file has a different name, update `--ann_path`.
+`EVAP_clean.json` is the annotation filename referenced by the current MIMIC-CXR scripts.
 
 Annotation files should contain `train`, `val`, and `test` splits. Each sample should provide:
 
@@ -120,7 +120,7 @@ The repository also includes COCO-style caption evaluation utilities under `pyco
 
 Install mutually compatible PyTorch, torchvision, and CUDA versions. Exact Python and dependency versions are not pinned in the current repository.
 
-The experiments described in the manuscript were conducted on an NVIDIA vGPU with 48 GB of memory.
+The experiments were conducted on an NVIDIA vGPU with 48 GB of memory.
 
 ## Running the Code
 
